@@ -1,6 +1,6 @@
 # Instagram Takip Etmeyenler Kontrolü
 
-Bu script, Instagram'dan indirdiğiniz verileri kullanarak sizi takip etmeyen kullanıcıları bulmanıza yardımcı olur.
+Bu araç, Instagram'dan indirdiğiniz verileri kullanarak sizi takip etmeyen kullanıcıları bulmanıza yardımcı olur.
 
 ## Kurulum
 
@@ -10,12 +10,11 @@ pip install -r requirements.txt
 ## Kullanım
 
 1. Instagram'dan verilerinizi indirin:
-   - Instagram'da Ayarlar > Gizlilik ve Güvenlik > Veri İndirme
-   - "Verilerinizi İndirin" seçeneğini seçin
+   - Instagram'da Ayarlar > META Hesaplar Merkezi > Bilgilerin ve İzinlerin
+   - "Bilgileri indir veya aktar" seçeneğini seçin (Sadece taipçiler ve takip edilenleri seçmeniz yeterlidir.)
    - İndirilen ZIP dosyasından `followers.html` ve `following.html` dosyalarını çıkarın
-   - Bu dosyaları script ile aynı klasöre koyun
 
-2. Scripti çalıştırın:
+2. Botu çalıştırın:
 
 
 ## Çıktı
